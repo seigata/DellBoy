@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/EbayCSVParser/v15
+/EbayCSVParser/obj
+/EbayCSVParser/bin

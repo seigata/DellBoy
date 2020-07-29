@@ -1,0 +1,254 @@
+﻿Country Code,Country Name,Label_Required
+AD,Andorra,Yes
+AE,United Arab Emirates,Yes
+AF,Afghanistan,Yes
+AG,Antigua and Barbuda,Yes
+AI,Anguilla,Yes
+AL,Albania,Yes
+AM,Armenia,Yes
+AN,Netherlands Antilles,Yes
+AO,Angola,Yes
+AQ,Antarctica,Yes
+AR,Argentina,Yes
+AS,American Samoa,Yes
+AT,Austria,No
+AU,Australia,Yes
+AW,Aruba,Yes
+AX,Åland Islands,Yes
+AZ,Azerbaijan,Yes
+BA,Bosnia and Herzegovina,Yes
+BB,Barbados,Yes
+BD,Bangladesh,Yes
+BE,Belgium,No
+BF,Burkina Faso,Yes
+BG,Bulgaria,No
+BH,Bahrain,Yes
+BI,Burundi,Yes
+BJ,Benin,Yes
+BL,Saint Barthélemy,Yes
+BM,Bermuda,Yes
+BN,Brunei Darussalam,Yes
+BO,Bolivia,Yes
+BQ,"Bonaire, Saba und Sint statius",Yes
+BR,Brazil,Yes
+BS,Bahamas,Yes
+BT,Bhutan,Yes
+BV,Bouvet Island,Yes
+BW,Botswana,Yes
+BY,Belarus,Yes
+BZ,Belize,Yes
+CA,Canada,Yes
+CC,Cocos (Keeling) Islands,Yes
+CD,Dem Rep of the Congo,Yes
+CF,Central African Rep,Yes
+CG,Congo,Yes
+CH,Switzerland,Yes
+CI,Côte d’Ivoire,Yes
+CK,Cook Islands,Yes
+CL,Chile,Yes
+CM,Cameroon,Yes
+CN,China (People’s Rep),Yes
+CN,China,Yes
+CO,Colombia,Yes
+CR,Costa Rica,Yes
+CU,Cuba,Yes
+CV,Cape Verde,Yes
+CW,Curaçao,Yes
+CX,Territory of Christmas Island,Yes
+CY,Cyprus,Yes
+CZ,Czech Rep,No
+CZ,Czech Republic,No
+DE,Germany,No
+DJ,Djibouti,Yes
+DK,Denmark,No
+DM,Dominica,Yes
+DO,Dominican Republic,Yes
+DZ,Algeria,Yes
+EC,Ecuador,Yes
+EE,Estonia,No
+EG,Egypt,Yes
+EH,Western Sahara,Yes
+ER,Eritrea,Yes
+ES,Spain,No
+ET,Ethiopia,Yes
+FI,Finland,No
+FJ,Fiji,Yes
+FK,Falkland Islands,Yes
+FM,Micronesia,Yes
+FO,Faröe Islands,Yes
+FR,France,No
+GA,Gabon,Yes
+GB,United Kingdom,No
+GD,Grenada,Yes
+GE,Georgia,Yes
+GF,French Guiana,Yes
+GG,Guernsey,Yes
+GH,Ghana,Yes
+GI,Gibraltar,Yes
+GL,Greenland,Yes
+GM,Gambia,Yes
+GN,Guinea,Yes
+GP,Guadeloupe,Yes
+GQ,Equatorial Guinea,Yes
+GR,Greece,No
+GS,South Georgia and the South Sandwich Islands,Yes
+GT,Guatemala,Yes
+GU,Guam,Yes
+GW,Guinea-Bissau,Yes
+GY,Guyana,Yes
+HK,Hongkong,Yes
+HK,Hong Kong,Yes
+HM,Heard Island and McDonald Islands,Yes
+HN,Honduras,Yes
+HR,Croatia,No
+HT,Haiti,Yes
+HU,Hungary,No
+ID,Indonesia,Yes
+IE,Ireland,No
+IL,Israel,Yes
+IM,Isle of Man,Yes
+IN,India,Yes
+IO,British Indian Ocean Territory,Yes
+IQ,Iraq,Yes
+IR,Iran,Yes
+IS,Iceland,Yes
+IT,Italy,No
+JE,Jersey,Yes
+JM,Jamaica,Yes
+JO,Jordan,Yes
+JP,Japan,Yes
+KE,Kenya,Yes
+KG,Kyrgyzstan,Yes
+KH,Cambodia,Yes
+KI,Kiribati,Yes
+KM,Comoros,Yes
+KN,Saint Christopher (St Kitts) and Nevis,Yes
+KP,Dem People’s Rep of Korea,Yes
+KR,Korea (Rep),Yes
+KW,Kuwait,Yes
+KY,Cayman Islands,Yes
+KZ,Kazakhstan,Yes
+LA,Lao People’s Dem Rep,Yes
+LB,Lebanon,Yes
+LC,Saint Lucia,Yes
+LI,Liechtenstein,No
+LK,Sri Lanka,Yes
+LR,Liberia,Yes
+LS,Lesotho,Yes
+LT,Lithuania,No
+LU,Luxembourg,No
+LV,Latvia,No
+LY,Libya,Yes
+MA,Morocco,Yes
+MC,Monaco,Yes
+MD,Moldova,Yes
+ME,Montenegro,Yes
+MF,Saint Martin (French Part),Yes
+MG,Madagascar,Yes
+MH,Marshall Islands,Yes
+MK,The former Yugoslav Republic of Macedonia,Yes
+ML,Mali,Yes
+MM,Myanmar,Yes
+MN,Mongolia,Yes
+MO,"Macao, China",Yes
+MP,Northern Mariana Islands,Yes
+MQ,Martinique,Yes
+MR,Mauritania,Yes
+MS,Montserrat,Yes
+MT,Malta,No
+MU,Mauritius,Yes
+MV,Maldives,Yes
+MW,Malawi,Yes
+MX,Mexico,Yes
+MY,Malaysia,Yes
+MZ,Mozambique,Yes
+NA,Namibia,Yes
+NC,New Caledonia,Yes
+NE,Niger,Yes
+NF,Norfolk Island,Yes
+NG,Nigeria,Yes
+NI,Nicaragua,Yes
+NL,Netherlands,No
+NO,Norway,Yes
+NP,Nepal,Yes
+NR,Nauru,Yes
+NU,Niue,Yes
+NZ,New Zealand,Yes
+OM,Oman,Yes
+PA,Panama (Rep),Yes
+PE,Peru,Yes
+PF,French Polynesia,Yes
+PG,Papua New Guinea,Yes
+PH,Philippines,Yes
+PK,Pakistan,Yes
+PL,Poland,No
+PM,Territorial Community of St Pierre and Miquelon,Yes
+PN,Pitcairn Islands,Yes
+PR,Puerto Rico,Yes
+PS,Palestine,Yes
+PT,Portugal,No
+PW,Palau,Yes
+PY,Paraguay,Yes
+QA,Qatar,Yes
+RE,Réunion,Yes
+RO,Romania,No
+RS,Serbia,Yes
+RU,Russian Federation,Yes
+RU,Russia,Yes
+RW,Rwanda,Yes
+SA,Saudi Arabia,Yes
+SB,Solomon Islands,Yes
+SC,Seychelles,Yes
+SD,Sudan,Yes
+SE,Sweden,No
+SG,Singapore,Yes
+SH,St Helena,Yes
+SI,Slovenia,No
+SJ,Svalbard and Jan Mayen,Yes
+SK,Slovakia,No
+SL,Sierra Leone,Yes
+SM,San Marino,Yes
+SN,Senegal,Yes
+SR,Suriname,Yes
+SS,South Sudan,Yes
+ST,Sao Tome and Principe,Yes
+SV,El Salvador,Yes
+SX,Sint Maarten,Yes
+SZ,Swaziland,Yes
+TC,Turks and Caicos Islands,Yes
+TD,Chad,Yes
+TF,French Southern Territories,Yes
+TG,Togo,Yes
+TH,Thailand,Yes
+TJ,Tajikistan,Yes
+TK,Tokelau,Yes
+TL,Timor-Leste,Yes
+TM,Turkmenistan,Yes
+TN,Tunisia,Yes
+TO,Tonga,Yes
+TR,Turkey,Yes
+TT,Trinidad and Tobago,Yes
+TV,Tuvalu,Yes
+TW,Taiwan,Yes
+TZ,Tanzania,Yes
+UA,Ukraine,Yes
+UG,Uganda,Yes
+UM,United States Minor Outlying Islands,Yes
+US,United States of America,Yes
+US,United States,Yes
+UY,Uruguay,Yes
+UZ,Uzbekistan,Yes
+VA,Vatican,Yes
+VC,Saint Vincent and the Grenadines,Yes
+VE,Venezuela,Yes
+VG,British Virgin Islands,Yes
+VI,"Virgin Islands, U.S.",Yes
+VN,Viet Nam,Yes
+VU,Vanuatu,Yes
+WF,Wallis and Futuna Islands,Yes
+WS,Samoa,Yes
+YE,Yemen,Yes
+YT,Territorial Community of Mayotte,Yes
+ZA,South Africa,Yes
+ZM,Zambia,Yes
+ZW,Zimbabwe,Yes
