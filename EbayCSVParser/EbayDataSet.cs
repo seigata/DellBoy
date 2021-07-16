@@ -20,6 +20,8 @@ namespace EbayCSVParser
         public string Buyercounty { get; set; } = string.Empty;
         public string Buyerpostcode { get; set; } = string.Empty;
         public string Buyercountry { get; set; } = string.Empty;
+        public string Buyertaxidentifiername { get; set; } = string.Empty;
+        public string Buyertaxidentifiervalue { get; set; } = string.Empty;
         public string Posttoname { get; set; } = string.Empty;
         public string Posttophone { get; set; } = string.Empty;
         public string Posttoaddress1 { get; set; } = string.Empty;
@@ -35,11 +37,22 @@ namespace EbayCSVParser
         public string Quantity { get; set; } = string.Empty;
         public string Soldfor { get; set; } = string.Empty;
         public string Postageandpackaging { get; set; } = string.Empty;
+        public string Itemlocation { get; set; } = string.Empty;
+        public string Itempostcode { get; set; } = string.Empty;
+        public string Itemcountry { get; set; } = string.Empty;
         public string IncludedVATrate { get; set; } = string.Empty;
+        public string eBayCollectAndRemitTaxRate { get; set; } = string.Empty;
+        public string eBayCollectAndRemitTaxType { get; set; } = string.Empty;
+        public string eBayreferencename { get; set; } = string.Empty;
+        public string eBayreferencevalue { get; set; } = string.Empty;
+        public string Taxstatus { get; set; } = string.Empty;
         public string Sellercollectedtax { get; set; } = string.Empty;
         public string eBaycollectedtax { get; set; } = string.Empty;
         public string Electronicwasterecyclingfee { get; set; } = string.Empty;
         public string Mattressrecyclingfee { get; set; } = string.Empty;
+        public string Batteryrecyclingfee { get; set; } = string.Empty;
+        public string Whitegoodsdisposaltax { get; set; } = string.Empty;
+        public string Tyrerecyclingfee { get; set; } = string.Empty;
         public string Additionalfee { get; set; } = string.Empty;
         public string Totalprice { get; set; } = string.Empty;
         public string eBaycollectedtaxandfeesincludedintotal { get; set; } = string.Empty;
@@ -63,8 +76,11 @@ namespace EbayCSVParser
         public string ClickandCollect { get; set; } = string.Empty;
         public string ClickandCollectReferenceNumber { get; set; } = string.Empty;
         public string eBayPlus { get; set; } = string.Empty;
+        public string eBayFulfilmentProgramme { get; set; } = string.Empty;
 
 
+
+        private const string VAT_PAID_STRING = "VATPAID";
 
         public DHLDataSet ConvertToDHL()
         {
@@ -94,6 +110,12 @@ namespace EbayCSVParser
 
             // Content Description from settings 
             dhlDS.DETAILED_CONTENT_DESCRIPTIONS_1 = Properties.Settings.Default.ParseSettings.Category;
+
+            // Setup tax code for sender customer reference.
+            if(Taxstatus.Replace(" ", "").ToUpper() == VAT_PAID_STRING)
+            {
+                dhlDS.SENDER_CUSTOMS_REFERENCE = "VAT Paid: IOSS - IM2760000742";
+            }
 
 
             dhlDS.DECLARED_ORIGIN_COUNTRY_1 = "GB";
