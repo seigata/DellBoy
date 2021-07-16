@@ -9,6 +9,8 @@ using CsvHelper;
 
 namespace EbayCSVParser
 {
+
+
     class Parser
     {
         public static string ConvertReports(string csvFile, string outputFile, DateTime dispatchedDate)
@@ -32,7 +34,7 @@ namespace EbayCSVParser
                     if (string.IsNullOrEmpty(ds.DESTINATION_COUNTRY)) return "Could not find country code for: " + ebayDS.Buyercountry;
 
                     // Check that a label is required or this is tracked to outside UK
-                    if (CountryCodes.Instance.LabelRequired(ds.DESTINATION_COUNTRY) || (ebayDS.Tracked && ds.DESTINATION_COUNTRY != "GB"))
+                    if (CountryCodes.Instance.LabelRequired(ds.DESTINATION_COUNTRY) || ((Properties.Settings.Default.ParseSettings.CreateForAllInternational || ebayDS.Tracked) && ds.DESTINATION_COUNTRY != "GB"))
                     {
                         // Check that we do not allready have a label for this address.
                         DHLDataSet existingDS = dataSets.FirstOrDefault(r => r.ADDRESS_LINE_1 == ds.ADDRESS_LINE_1 &&
@@ -97,5 +99,19 @@ namespace EbayCSVParser
                 cw.WriteRecords(dataSet);
             }
         }
+        
+    }
+
+    public enum ShippingFilter
+    {
+        All,
+        Tracked,
+        None
+    };
+
+    public class ParserSettings
+    {
+        public bool CreateForAllInternational = false;
+        public string Category = string.Empty;
     }
 }

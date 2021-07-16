@@ -59,5 +59,8 @@ namespace EbayCSVParser
         public string DECLARED_ORIGIN_COUNTRY_5 { get; set; } = string.Empty;
         public string TOTAL_VALUE { get; set; } = string.Empty;
         public string RETURN_LABEL { get; set; } = string.Empty;
+        public string SENDER_CUSTOMS_REFERENCE { get; set; } = string.Empty;
+        public string IMPORTER_CUSTOMS_REFERENCE { get; set; } = string.Empty;
+        
     }
 }

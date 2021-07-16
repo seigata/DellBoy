@@ -99,5 +99,19 @@ namespace EbayCSVParser
         {
 
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Settings settingsForm = new Settings();
+
+            settingsForm.ShowDialog();
+
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

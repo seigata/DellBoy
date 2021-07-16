@@ -91,11 +91,16 @@ namespace EbayCSVParser
             dhlDS.CURRENCY = SanitiseData(CURRENCY);
             dhlDS.CONTENT_TYPE = SanitiseData(CONTENT_TYPE);
             dhlDS.DECLARED_CONTENT_AMOUNT_1 = "1";
-            dhlDS.DETAILED_CONTENT_DESCRIPTIONS_1 = "Pack of stamps";
+
+            // Content Description from settings 
+            dhlDS.DETAILED_CONTENT_DESCRIPTIONS_1 = Properties.Settings.Default.ParseSettings.Category;
+
+
             dhlDS.DECLARED_ORIGIN_COUNTRY_1 = "GB";
             dhlDS.RETURN_LABEL = "FALSE";
             dhlDS.RECIPIENT_PHONE = SanitiseData(Posttophone);
-            dhlDS.RECIPIENT_EMAIL = SanitiseData(Buyeremail);
+            //dhlDS.RECIPIENT_EMAIL = SanitiseData(Buyeremail);
+            dhlDS.RECIPIENT_EMAIL = "";
 
             dhlDS.DECLARED_VALUE_1 = SanitiseData(Soldfor.Replace("£", ""));
             dhlDS.TOTAL_VALUE = SanitiseData(dhlDS.DECLARED_VALUE_1);
